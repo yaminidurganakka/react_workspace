@@ -1,0 +1,72 @@
+.middle {
+    text-align: center;
+}
+
+.mid1 {
+    font-size: 30px;
+}
+
+.mid2 {
+    font-size: 20px;
+    color: #595959;
+}
+
+.type {
+    display: flex;
+    gap: 2cm;
+    height: 20cm;
+    padding-left: 2cm;
+}
+
+.list-container {
+    /* display: flex;
+    flex-direction: column;
+    gap:2rem;  */
+    padding-left: 2cm;
+}
+
+.list-container button {
+    background-color: white;
+    color: #000;
+    font-size: 26px;
+
+}
+
+.but {
+    display: flex;
+    padding: 0.8cm;
+}
+
+#arrow {
+    font-size: xx-large;
+}
+
+.part-2 {
+    padding-left: 5cm;
+}
+
+.part-3 {
+    padding-left: 2.9cm;
+}
+
+.part-4 {
+    padding-left: 2.2cm;
+}
+
+.part-21 {
+    padding-left: 4.3cm;
+}
+
+.part-5 {
+    padding-left: 0.9cm;
+}
+
+video {
+    height: fit-content;
+    width: fit-content;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+}

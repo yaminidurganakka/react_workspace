@@ -1,0 +1,28 @@
+.footer {
+    background-color: #e4e3e3;
+    height: 5cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    gap: 1rem;
+}
+
+.img1 {
+    border-radius: 50%;
+    height: 1cm;
+    width: 1cm;
+    background-color: #fff;
+    padding: 15px;
+    padding: 15px;
+    transition:.7s ease-in-out;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img1:hover {
+    transform: rotate(360deg);
+  }

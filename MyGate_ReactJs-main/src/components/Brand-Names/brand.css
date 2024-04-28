@@ -1,0 +1,149 @@
+.one {
+    height: 4cm;
+
+}
+
+
+.logo-card-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    padding-left: 1cm;
+    padding-right: 1cm;
+
+}
+
+.logo-card-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 6cm;
+    height: 4cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-card-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo-card-container-last {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+.logo-card-container img {
+    transition: 0.5s all ease-in-out;
+    position: relative;
+    z-index: -99;
+}
+
+.logo-card-container:hover img {
+    transform: scale(1.4);
+
+}
+
+.last-tag {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    background: linear-gradient(90deg, #f75878 -.08%, #f7635b 41.88%, #faaf3a 99.83%);
+}
+
+.after {
+    height: 3cm;
+}
+
+.after-para {
+    text-align: center;
+    padding-top: 1cm;
+    font-size: 1cm;
+}
+
+.learn-more {
+    width: 3cm;
+    text-align: center;
+
+}
+
+.info {
+    display: flex;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 1cm;
+    justify-content: space-around;
+
+
+}
+
+
+
+.card-info img {
+
+    overflow: hidden;
+    /* position: fixed; */
+    transform: 0.5s all ease-in-out;
+    /* z-index: -99; */
+
+
+}
+
+.card-info:hover img {
+    transform: scale(1.2);
+}
+
+.shadow {
+
+    transition: all .3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    transition: 0.3s;
+    width: 9cm;
+    height: 8cm;
+    padding-top: 2cm;
+
+}
+
+.shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container5 {
+    padding: 2px 16px;
+}
+
+
+
+.data {
+    padding: 0.5rem;
+    font-size: 13px;
+}
+
+.found-img {
+    width: 30%;
+    border-radius: 50%;
+    justify-content: center;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    /* margin: auto; */
+    /* object-fit: cover; */
+    transition: all .3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    margin-bottom: -5rem;
+}
+
+.per {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    height: 3cm;
+}
+
+.found-name {
+    font-size: 22px;
+}
